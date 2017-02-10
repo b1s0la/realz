@@ -1,0 +1,322 @@
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+ 
+ @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+body {
+	width: 100%;
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+}
+#follow:hover{
+  background-color: #FFC200;
+  padding: 5px;
+}
+ 
+.wrap{
+	margin-top: 60px;
+}
+
+
+.box {
+	width: 100%;
+	height: 250px;
+	box-shadow: 2px 3px 15px 0px #ccc;
+    border: 1px solid #ccc;
+	overflow: hidden;
+	background-color: lightgrey;
+	margin-bottom: 10px;
+}
+#time{
+	margin-top: 20px;
+}
+
+#con1{
+	margin-top: 15px;
+}
+
+.spa{
+	color: #FFC200;
+}
+.contain{
+	width: 100%;
+	background-color: #FFC200;
+	margin-top: 60px;
+	
+}
+
+#booknow{
+	background-color: grey;
+	margin-top: 100px;
+	overflow: hidden;
+	height: 100px;
+	
+}
+strong{
+	font-size: 48px;
+	color: #FFC200;
+}
+
+#contact{
+	text-decoration: none;
+}
+#about{
+	text-decoration: none;
+}
+.fola{
+	background-color:#FFC200; 
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin-right: 2px;
+	margin-left: 25px;
+}
+.fola:hover{
+	background-color: lightgrey;
+}
+.nav>li>a:hover, .nav>li>a:focus{
+	background-color: transparent;
+}
+
+
+
+
+@media only screen and (max-device-width: 500px){
+	.fola{
+	margin-left: 50px;
+}
+	
+}
+
+
+
+
+
+@media only screen and (max-device-width: 768px){
+	#booknow{
+	margin-top: 100px;
+	width: 500px;
+	margin-left: 100px;
+	)
+	
+}
+
+
+/*.box{
+	height: 350px;
+}
+#time{
+	height: 120px;
+	width: 120px;
+	margin-left: 80px;
+	text-align: center;
+}
+.fast{
+	margin-left: 100px;
+
+}
+.best{
+	margin-left: 100px;
+
+}
+#con1{
+	height: 120px;
+	width: 120px;
+	margin-left: 80px;
+}
+.spa{
+	text-align: center;
+	margin-right: 150px;
+}
+.spi{
+	text-align: center;
+	margin-right: 140px;
+}
+.excel{
+	margin-left: 90px;
+
+}
+
+	
+
+
+#booknow{
+	width: 200px;
+	height: 80px;
+	margin-top: -30px;
+	margin-left: 70px;
+	
+}
+strong{
+	font-size: 35px;
+	color: #FFC200;
+}
+.b1{
+	margin-left: 1px;
+	margin-right: -50px;
+	margin-bottom: 50px;
+
+}
+.boo{
+	
+	width: 50px;
+	height: 50px;
+	
+
+
+}
+.lef{
+	float: left;
+	margin-top: 30px;
+}
+.fl{
+	float: right;
+	margin-top: -80px;
+	margin-right: 1px;
+}
+.stop{
+	text-align: center;
+	margin-right: 40px;
+}
+.folu{
+	margin-left: 40px;
+	margin-top: 10px;
+
+}
+.folu1{
+	margin-left:160px;
+	margin-top: -50px; 
+}
+
+
+.google{
+	float: right;
+	margin-top: -50px;
+	margin-right: 50px;
+}
+.contacts{
+	margin-top: 50px;
+	margin-left: 40px; 
+}
+}
+
+@media only screen and (max-device-width: 768px){
+	body {
+	margin: 0px;
+	background-color: pink;
+	
+}
+.box{
+	height: 400px;
+}
+#time{
+	height: 200px;
+	width: 200px;
+	margin-left: 240px;
+}
+.fast{
+	margin-left: 300px;
+
+}
+.best{
+	margin-left: 300px;
+
+}
+#con1{
+	height: 200px;
+	width: 200px;
+	margin-left: 240px;
+}
+.spa{
+	text-align: center;
+	margin-right: 260px;
+}
+.spi{
+	text-align: center;
+	margin-right: 230px;
+}
+.excel{
+	margin-left: 270px;
+
+}
+#booknow{
+	width: 250px;
+	height: 80px;
+	margin-top: -30px;
+	margin-left: 90px;
+	
+}
+strong{
+	font-size: 40px;
+	color: #FFC200;
+}
+.b1{
+	margin-left: 10px;
+	margin-right: -50px;
+	margin-bottom: 50px;
+
+}
+.boo{
+	
+	width: 50px;
+	height: 50px;
+	
+
+
+}
+.lef{
+	float: left;
+	margin-top: 30px;
+}
+.fl{
+	float: right;
+	margin-top: -70px;
+	margin-right: 20px;
+}
+.stop{
+	text-align: center;
+	margin-right: 40px;
+}
+.move{
+	margin-left: 200px;
+}
+.fola{
+	
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-top: 10px;
+	
+}
+.google{
+	float: right;
+}
+.contacts{
+	margin-top: 250px;
+	margin-left: 60px; 
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
